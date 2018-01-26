@@ -4,12 +4,14 @@ module Memorable
     def self.count
       self.class.count
     end
-  end
 
-  module InstanceMethods
     def reset_all
       self.all.clear
     end
+  end
+
+  module InstanceMethods
+
   end
 
 end
