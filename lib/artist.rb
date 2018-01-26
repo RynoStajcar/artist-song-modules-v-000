@@ -3,7 +3,7 @@ require_relative './concerns/memorable.rb'
 
 
 class Artist
-
+  module InstanceMethods
 
   attr_accessor :name
   attr_reader :songs
@@ -23,7 +23,7 @@ class Artist
     @@artists
   end
 
-
+  
   # def self.reset_all
   #   self.all.clear
   # end
