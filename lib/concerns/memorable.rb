@@ -1,7 +1,7 @@
 module Memorable
 
   module ClassMethods
-    def self.count
+    def count
       self.class.count
     end
 
