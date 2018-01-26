@@ -3,7 +3,6 @@ require_relative './concerns/memorable.rb'
 
 
 class Artist
-  include Memorable
   extend Memorable::ClassMethods
   include Memorable::InstanceMethods
 
