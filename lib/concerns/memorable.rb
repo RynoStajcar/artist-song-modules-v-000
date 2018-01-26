@@ -4,7 +4,7 @@ module Memorable
     self.class.count
   end
 
-  def reset.all
+  def reset_all
     self.all.clear
 
 end
