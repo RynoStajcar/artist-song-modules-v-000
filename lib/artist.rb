@@ -3,7 +3,9 @@ require_relative './concerns/memorable.rb'
 
 
 class Artist
-  module InstanceMethods
+  include Memorable
+  extend Memorable::ClassMethods
+  include Memorable::InstanceMethods
 
   attr_accessor :name
   attr_reader :songs
